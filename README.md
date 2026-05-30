@@ -1,9 +1,13 @@
-<h1 align="center">projectsFULLSTACK</h1>
+<h1 align="center">Gardening Prose</h1>
 
 `main image`
 
 ## Description:
-Outline for general FULLSTACK DEVELOPMENT PROJECTs
+**Garden** is an Ecology React.js app that allows users to purchase look up their favorite roses species: garden locations, varieties, teas. The option to subscribe to a Newletter is provided on the front page for interested patrons.
+
+     - Client side (frontend) utilizes React.js & react-router-dom in combination with Material MUI create themes to provide cohesive structure.
+     - Server side (backend) uses Node.js / pgvector in combination with PostGreSQL to provide database structure on the frontend when interfacing between client and server side.
+    - Material UI in combination with traditional CSS is used for a cohesive design aesthetic.
 
 ## Technology Stack
 - **Frontend/Client:** React.js, HTML5, CSS, framework, etc.
@@ -103,7 +107,9 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - **PostMan** for API Tests [here](https://www.postman.com/)
     - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
     - jwt Debugger [here](https://jwt.io/#debugger-io)
-- **React.New** allows for testing new React projects [here](react.new)
+- **WorkOS** allows for additional Authentification components [here](https://workos.com/docs?_gl=1*1lp38wf*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw8uTQBhAdEiwAVvtJyiDnuTToeXJbBTP_y3VVI0h1rPJ2xGbXGE3HJoVf7-13ob9aktQ5DhoCwLYQAvD_BwE&gbraid=0AAAAACcEmgpoWDNXnqRSX44dZp-Ovgzx0)
+    - Single Sign-On [documentation](https://workos.com/docs/authkit/sso)
+    - Social Logins [documentation](https://workos.com/docs/authkit/social-login)
 - [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
 
 
