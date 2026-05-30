@@ -5,8 +5,8 @@
 ## Description:
 **Garden** is an Ecology React.js app that allows users to purchase look up their favorite roses species: garden locations, varieties, teas. The option to subscribe to a Newletter is provided on the front page for interested patrons.
 
-     - Client side (frontend) utilizes React.js & react-router-dom in combination with Material MUI create themes to provide cohesive structure.
-     - Server side (backend) uses Node.js / pgvector in combination with PostGreSQL to provide database structure on the frontend when interfacing between client and server side.
+    - Client side (frontend) utilizes React.js & react-router-dom in combination with Material MUI create themes to provide cohesive structure.
+    - Server side (backend) uses Node.js / pgvector in combination with PostGreSQL to provide database structure on the frontend when interfacing between client and server side.
     - Material UI in combination with traditional CSS is used for a cohesive design aesthetic.
 
 ## Technology Stack
