@@ -122,16 +122,16 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - Lorem Ipsum 
 - Google Fonts [here](https://fonts.google.com/)
 - Images aspect Ratio **3:2** for MainCarousel
-- Material UI `sx` Comparison Table: 
+- Material UI `sx` Comparison Table (justification): 
 
-| Feature | Using the sx Prop (<Box sx={{ p: 2 }} />) | Using Top-Level Props (<Box p={2} />) |
+| **Feature** | **Using the sx Prop (<Box sx={{ p: 2 }} />)** | **Using Top-Level Props (<Box p={2} />)** |
 | --- | --- | --- |
-| MUI Version Status| Modern standard and highly recommended. | Deprecated / Removed in newer versions. |
-| Typing Support | Perfect TypeScript autocomplete coverage. | Poor or non-existent typing in newer releases. |
-| CSS Overriding | Predictable behavior as a single source of truth. | Complex and buggy when combining different props. |
-| Advanced Features | Supports nested selectors, pseudo-classes, media queries. | Limited strictly to simple spacing and alignment. |
+| **MUI Version Status** | Modern standard and highly recommended. | Deprecated / Removed in newer versions. |
+| **Typing Support** | Perfect TypeScript autocomplete coverage. | Poor or non-existent typing in newer releases. |
+| **CSS Overriding** | Predictable behavior as a single source of truth. | Complex and buggy when combining different props. |
+| **Advanced Features** | Supports nested selectors, pseudo-classes, media queries. | Limited strictly to simple spacing and alignment. |
 
-TSX
+**TSX**
 
 ```
 // ❌ Deprecated / Broken Practice
