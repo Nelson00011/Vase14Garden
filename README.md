@@ -122,6 +122,11 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - Lorem Ipsum 
 - Google Fonts [here](https://fonts.google.com/)
 - Images aspect Ratio **3:2** for MainCarousel
+
+#### **helpful hint:** 
+- `useful hints for future projects to go faster`
+- console log testing with `ctr-alt-l` 
+- Always Stay Positive & Triple Check Permissions :)
 - Material UI `sx` Comparison Table (justification): 
 
 | **Feature** | **Using the sx Prop (<Box sx={{ p: 2 }} />)** | **Using Top-Level Props (<Box p={2} />)** |
@@ -141,11 +146,6 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 <Box sx={{ p: 2, color: 'primary.main', '&:hover': { opacity: 0.8 } }} />
 
 ```
-
-#### **helpful hint:** 
-- `useful hints for future projects to go faster`
-- console log testing with `ctr-alt-l` 
-- Always Stay Positive & Triple Check Permissions :)
 
 
 
