@@ -101,10 +101,6 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ## Resources:
 
-- `Tech used and links associated`
-- `Tech used and links associated`
-
-`<examples below>`
 - **PostMan** for API Tests [here](https://www.postman.com/)
     - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
     - jwt Debugger [here](https://jwt.io/#debugger-io)
@@ -113,6 +109,20 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - Social Logins [documentation](https://workos.com/docs/authkit/social-login)
 - **Rose Petal Tea** article for fun [here](https://www.inspirededibles.ca/2021/06/rose-petal-tea-warm-or-iced.html)
 - [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
+#### API
+##### Plant Based API
+- Plant API Trefle API Service for [Node.js](https://github.com/aself101/trefle-api)
+- Plant API [documentation](https://perenual.com/docs/api)
+- Plant Database API with taxomony and Classification, Characteristics, Plant Growth Requirements - [API Farmer](https://apifarmer.com/plant-database-api/)
+
+##### Weather based API
+ - Weather Data API [open source](https://open-meteo.com/en/docs), variables included in main page. Government data listed as references as well. 
+
+##### Location Based API
+- Google Maps for React Applications [documentation](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js#2) and [Platform](https://mapsplatform.google.com/lp/maps-apis/)
+
+##### Protein Folds Based API
+- AlphaFold Protein Structure Database [documentation](https://alphafold.ebi.ac.uk/), to compare for similar species and fun co-evolution fun facts!
 
 
 #### **style:** 
