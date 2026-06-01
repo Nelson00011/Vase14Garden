@@ -10,7 +10,7 @@
 - Material UI in combination with traditional CSS is used for a cohesive design aesthetic.
 
 ## Technology Stack
-- **Frontend/Client:** React.js, HTML5, CSS, framework, etc.
+- **Frontend/Client:** React.js, HTML5, CSS, Material UI, 
 - **API:** Api calls or external sources used
 - **Backend/Server:** node.js/express or python alternatives, include databases
 
@@ -37,11 +37,12 @@
 
 - Initial package.json & install dependenies(localhost:3000):
     - Must be `cd`'d into frontend/client for install
-    - MUI, `react-router-dom`, redux, formik, etc... (see resources)
+    - MUI, `react-router-dom`, redux, formik, etc... (see resources) do both material UI and Google icons in case of depreciation
 ```
 > npx create-react-app <project name>
 > cd <project name>
 > npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+> npm install --save google-icon
 > npm install --save react-router-dom
 > npm install react-redux @reduxjs/toolkit
 > npm install dotenv react-responsive-carousel
@@ -132,6 +133,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - Lorem Ipsum 
 - Google Fonts [here](https://fonts.google.com/)
 - Images aspect Ratio **3:2** for MainCarousel
+- Material UI icons [catalogue](https://mui.com/material-ui/material-icons/?query=info) vs Google [Icons](https://fonts.google.com/icons)
 
 #### **helpful hint:** 
 - `useful hints for future projects to go faster`

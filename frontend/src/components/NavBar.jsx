@@ -1,21 +1,21 @@
 //Pages
 import { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+// import { useDispatch, useSelector } from "react-redux";
 import { Badge, Box, IconButton } from "@mui/material";
-import { SearchOutlined, ParkIcon, LibraryBooksIcon, InfoIcon } from "@mui/icons-material";
+import { PersonIcon, SearchOutlined, ParkIcon, LibraryBooksIcon, InfoIcon } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import LogoutIcon from '@mui/icons-material/Logout';
 import LoginIcon from '@mui/icons-material/Login';
 //style
 import { shades } from "../theme";
 import classes from './NavBar.module.css';
-import { setIsCartOpen } from '../state';
+// import { setIsCartOpen } from '../state';
 
 
 function NavBar (){
     const navigate = useNavigate();
-    const dispatch = useDispatch();
-    const cart = useSelector((state) => state.cart.cart);
+    // const dispatch = useDispatch();
+    // const cart = useSelector((state) => state.cart.cart);
     const [login, setLogin] = useState(false);
     const token = localStorage.getItem('token')
     //TODO HERE Auth() LOGO
@@ -24,30 +24,30 @@ function NavBar (){
     )
     
 
-    const loggedIn = <>
-        <IconButton 
-        onClick={()=>navigate('/profile')}
-        className={classes.iconButton}>
-            <PersonOutline /> 
-        </IconButton>
-        <IconButton 
-        onClick={()=> {
-            localStorage.setItem('token', false)
-            setLogin(false)
-            navigate('/home')
-        }}
-        onClickclassName={classes.iconButton}>
-            <LogoutIcon /> 
-        </IconButton>
-        </>
+    // const loggedIn = <>
+    //     <IconButton 
+    //     onClick={()=>navigate('/profile')}
+    //     className={classes.iconButton}>
+    //         <PersonIcon /> 
+    //     </IconButton>
+    //     <IconButton 
+    //     onClick={()=> {
+    //         localStorage.setItem('token', false)
+    //         setLogin(false)
+    //         navigate('/home')
+    //     }}
+    //     onClickclassName={classes.iconButton}>
+    //         <LogoutIcon /> 
+    //     </IconButton>
+    //     </>
 
-    const loggedOut = <>
-        <IconButton 
-        onClick={()=>navigate('/auth')}
-        className={classes.iconButton}>
-                <LoginIcon /> 
-        </IconButton>
-        </>
+    // const loggedOut = <>
+    //     <IconButton 
+    //     onClick={()=>navigate('/auth')}
+    //     className={classes.iconButton}>
+    //             <LoginIcon /> 
+    //     </IconButton>
+    //     </>
     
     return (
         <Box className={classes.outterBox}>
@@ -57,14 +57,14 @@ function NavBar (){
                    color={shades.secondary[500]}>Rose Grounds</Box>
                 <Box className={classes.icons}>
                     <IconButton className={classes.iconButton}
-                    onClick={() =>navigate('/search')} 
+                    onClick={() =>navigate('/facts')} 
                     sx={{ "&:hover": { cursor: "pointer" } }}
                     color={shades.secondary[500]}
                      >
                     <SearchOutlined />
                     </IconButton>
-                    {login && loggedIn}
-                    {!login && loggedOut}
+                    {/* {login && loggedIn}
+                    {!login && loggedOut} */}
                      {/* LogIn Icon Test */}
 
                      <IconButton className={classes.iconButton}
@@ -82,7 +82,7 @@ function NavBar (){
                     </IconButton>
 
                     <IconButton className={classes.iconButton}
-                    onClick={() =>navigate('/map')} 
+                    onClick={() =>navigate('/gardens')} 
                     sx={{ "&:hover": { cursor: "pointer" } }}
                     color={shades.secondary[500]}
                     >

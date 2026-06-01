@@ -86,6 +86,7 @@ const MainCarousel = () => {
             >
               <Typography color={shades.secondary[200]}>Spilling Tea in the Garden</Typography>
               <Typography variant="h1">Rose Grounds</Typography>
+              
               <Typography
                 fontWeight="bold"
                 color={shades.secondary[300]}
