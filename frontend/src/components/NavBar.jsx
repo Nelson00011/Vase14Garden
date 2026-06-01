@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Badge, Box, IconButton } from "@mui/material";
-import { PersonOutline, ShoppingBagOutlined, MenuOutlined, SearchOutlined } from "@mui/icons-material";
+import { SearchOutlined, ParkIcon, LibraryBooksIcon, InfoIcon } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import LogoutIcon from '@mui/icons-material/Logout';
 import LoginIcon from '@mui/icons-material/Login';
@@ -54,17 +54,43 @@ function NavBar (){
             <Box className={classes.innerBox}>
                 <Box onClick={() =>navigate('/')} 
                     sx={{ "&:hover": { cursor: "pointer" } }}
-                   color={shades.secondary[500]}>Boho Bag</Box>
+                   color={shades.secondary[500]}>Rose Grounds</Box>
                 <Box className={classes.icons}>
-                    <IconButton className={classes.iconButton}>
-                        <SearchOutlined />
+                    <IconButton className={classes.iconButton}
+                    onClick={() =>navigate('/search')} 
+                    sx={{ "&:hover": { cursor: "pointer" } }}
+                    color={shades.secondary[500]}
+                     >
+                    <SearchOutlined />
                     </IconButton>
                     {login && loggedIn}
                     {!login && loggedOut}
                      {/* LogIn Icon Test */}
+
+                     <IconButton className={classes.iconButton}
+                     onClick={() =>navigate('/info')} 
+                     sx={{ "&:hover": { cursor: "pointer" } }}
+                     color={shades.secondary[500]}>
+                        <InfoIcon />
+                    </IconButton>
+                    <IconButton className={classes.iconButton}
+                     onClick={() =>navigate('/history')} 
+                     sx={{ "&:hover": { cursor: "pointer" } }}
+                     color={shades.secondary[500]}
+                    >
+                        <LibraryBooksIcon />
+                    </IconButton>
+
+                    <IconButton className={classes.iconButton}
+                    onClick={() =>navigate('/map')} 
+                    sx={{ "&:hover": { cursor: "pointer" } }}
+                    color={shades.secondary[500]}
+                    >
+                        <ParkIcon />
+                    </IconButton>
                      
                      
-                    <Badge
+                    {/* <Badge
                         badgeContent={cart.length}
                         color="secondary"
                         invisible={cart.legth === 0}
@@ -81,10 +107,8 @@ function NavBar (){
                     <IconButton className={classes.iconButton} onClick={() => dispatch(setIsCartOpen({}))}>
                         <ShoppingBagOutlined />
                     </IconButton>
-                    </Badge>
-                    <IconButton className={classes.iconButton}>
-                        <MenuOutlined />
-                    </IconButton>
+                    </Badge> */}
+                    
                 </Box>
             </Box>
         </Box>

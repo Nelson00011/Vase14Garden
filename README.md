@@ -172,8 +172,8 @@ troubleShooting [contains issues resolved]
 HOME page
 Rose Varieties General with LLM for Scraped for General Information (questioning) Page
 Location Rose Gardens (Maps) - Today's Weather Based on Location
-Rose Tea Page Making - Zen Phrases LLM (generation? pin the phrases you like?) if logged in
-Not Found Page
+Rose Tea Page Making - Zen Phrases LLM (generation? pin the phrases you like?) if 
+- Connect "Garden" to gardens pages around the world where you can explore further and have a full page -> direct to trip planner? 
 
 2. The Fresh Petal MethodPrep the teapot: Preheat your teapot by swirling a small amount of boiling water in it for 5 minutes, then discard the water.Steep: Place about 2 loosely packed cups of fresh rose petals into the teapot. Pour 3 cups of near-boiling water (around \(200^{\circ}\text{F}\) or \(93^{\circ}\text{C}\)) over the petals.Wait: Cover the teapot and let steep for 5 to 10 minutes. The water will absorb a delicate flavor and a faint pink/yellow hue.
 ---
