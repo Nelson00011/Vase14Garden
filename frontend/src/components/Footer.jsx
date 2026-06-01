@@ -45,8 +45,8 @@ function Footer(){
             </Box>
             <Box>
                 <Typography 
-                 variant="h4"
-                    sx={{
+                 sx={{
+                        typography: 'h4',
                         fontWeight: 'bold',
                         mb: '30px',
                         color: shades.secondary[500]
@@ -62,6 +62,7 @@ function Footer(){
             <Box>
                 <Typography 
                   sx={{
+                        typography: 'h4',
                         fontWeight: 'bold',
                         mb: '30px',
                         color: shades.secondary[500]
