@@ -1,0 +1,5 @@
+# TODO include keys
+
+# misc
+.DS_Store
+.env.local

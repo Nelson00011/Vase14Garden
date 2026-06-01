@@ -1,0 +1,23 @@
+import OpenAI from "openai";
+
+// The SDK automatically pulls the key from process.env.OPENAI_API_KEY
+const openai = new OpenAI();
+
+async function askChatGPT() {
+  try {
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o", // You can use gpt-4o, gpt-3.5-turbo, etc.
+      messages: [
+        { role: "system", content: "You are a helpful website assistant." },
+        { role: "user", content: "Write a short welcome message for my homepage." }
+      ],
+      temperature: 0.7,
+    });
+
+    console.log(response.choices[0].message.content);
+  } catch (error) {
+    console.error("Error calling OpenAI API:", error);
+  }
+}
+
+askChatGPT();
