@@ -1,12 +1,12 @@
 import { Box, Typography, IconButton, useMediaQuery } from '@mui/material';
-//Carousel Design Import Below
+//COMMENTS: Carousel Design Import Below
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import { shades } from './../theme';
 
-//Imports all images from assets folder
+//COMMENTS: Imports all images from ASSETS folder
 const importAll = (r) =>
   r.keys().reduce((acc, item) => {
     acc[item.replace("./", "")] = r(item);
@@ -17,7 +17,7 @@ export const heroTextureImports = importAll(
   require.context("./../assets", false, /\.(png|jpe?g|svg)$/)
 );
 
-//Components below:
+//COMMENTS: Components below:
 const MainCarousel = () => {
 
     return (
@@ -70,7 +70,6 @@ const MainCarousel = () => {
               }}
             />
             <Box
-            
             sx={{
             position: 'absolute',
             top: '45%',

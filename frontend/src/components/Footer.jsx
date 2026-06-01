@@ -25,7 +25,7 @@ function Footer(){
             mb="30px"
             color={shades.secondary[500]}
             >
-                Rose Garden
+                Rose Grounds
             </Typography>
             <div>
             Lorem ipsum dolor sit amet, no nam audiam vituperata disputando, 
@@ -41,8 +41,7 @@ function Footer(){
                  color={shades.secondary[500]}>
                     ABOUT US
                  </Typography>
-                 <Typography mb="30px">Careers</Typography>
-                 <Typography mb="30px">Locations</Typography>
+                 <Typography mb="30px">Mission Statement</Typography>
                  <Typography mb="30px">Terms & Conditions</Typography>
                  <Typography mb="30px">Privacy Policy</Typography>
             </Box>
@@ -54,10 +53,10 @@ function Footer(){
                  color={shades.secondary[500]}>
                     HELP
                  </Typography>
-                 <Typography mb="30px">Customer Inquiries</Typography>
-                 <Typography mb="30px">Track Order</Typography>
-                 <Typography mb="30px">Corporate Purchasing</Typography>
-                 <Typography mb="30px">Returns & Refunds</Typography>
+                 <Typography mb="30px">Common Issues</Typography>
+                 <Typography mb="30px">Personal Tea</Typography>
+                 <Typography mb="30px">Rose Varities</Typography>
+
                  
             </Box>
         <Box width='clamp(20%, 25%, 30%)'>
