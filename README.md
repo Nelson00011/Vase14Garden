@@ -101,7 +101,7 @@ Connect with me on <a href="https://www.linkedin.com/in/ayla-nelson/">LinkedIn</
 Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ## Resources:
-
+- **Github Copilot** [documentation](https://github.com/features/copilot/ai-code-editor?utm_campaign=copilot-brand&utm_medium=sem&utm_source=google&ocid=AIDcmmh2h80ugd_SEM__k_Cj0KCQjw2_TQBhCnARIsAF3-XhyzJBjUdIPSzw7jXkjkb13MyI-qhmFerOkJ56HK2BjTuC2QGIokMtYaAsFNEALw_wcB_k_) 
 - **PostMan** for API Tests [here](https://www.postman.com/)
     - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
     - jwt Debugger [here](https://jwt.io/#debugger-io)
@@ -132,6 +132,8 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - Filler Text [typographic](https://generator.lorem-ipsum.info/)
     - Lorem Ipsum 
 - Google Fonts [here](https://fonts.google.com/)
+
+##### Material UI [Documentation](https://mui.com/material-ui/getting-started/)
 - Images aspect Ratio **3:2** for MainCarousel
 - Material UI icons [catalogue](https://mui.com/material-ui/material-icons/?query=info) vs Google [Icons](https://fonts.google.com/icons)
 
@@ -159,6 +161,12 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ```
 
+| **Feature** | **Github Copilot** | **[CodeRabbit](https://www.coderabbit.ai/)** |
+| :--- | --- | --- |
+| Primary Use| General coding assistance, completion, and workspace chat. | Pull request review, deep bug detection, and code quality control.|
+| Integrations | Primarily native to GitHub, though supports IDE extensions. | Works across GitHub, GitLab, Bitbucket, and Azure DevOps.|
+| Analysis Depth | Line-by-line completion and conversational chat; reviews are essentially quick spellchecks. | Advanced analysis, structural and performance problem catching (e.g., N+1 database issues). |
+| Review Rules | Basic instructions via markdown. | Deep custom rules and path-scoped configurations (.coderabbit.yaml). |
 
 
 
