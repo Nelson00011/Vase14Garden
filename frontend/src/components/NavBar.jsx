@@ -80,13 +80,7 @@ function NavBar (){
                      color={shades.secondary[500]}>
                         <InfoIcon />
                     </IconButton>
-                    <IconButton className={classes.iconButton}
-                     onClick={() =>navigate('/history')} 
-                     sx={{ "&:hover": { cursor: "pointer" } }}
-                     color={shades.secondary[500]}
-                    >
-                        <LibraryBooksIcon />
-                    </IconButton>
+                    
 
                     <IconButton className={classes.iconButton}
                     onClick={() =>navigate('/gardens')} 

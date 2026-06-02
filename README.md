@@ -118,6 +118,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ##### Weather based API
  - Weather Data API [open source](https://open-meteo.com/en/docs), variables included in main page. Government data listed as references as well. 
+ - Google DeepMind API [AI weather](https://deepmind.google/science/weathernext/) forestcast. 
 
 ##### Location Based API
 - Google Maps for React Applications [documentation](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js#2) and [Platform](https://mapsplatform.google.com/lp/maps-apis/)
