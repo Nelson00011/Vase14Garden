@@ -12,7 +12,7 @@ import ProfilePage from './pages/ProfilePage';
 import AuthenticationPage from './pages/AuthentificationPage';
 //COMMENTS: static components
 
-// import NavBar from './components/NavBar';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 
@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* <NavBar />  */}
+        <NavBar /> 
         {/* <ScrollToTop/> */}
         <Routes>
           <Route path="/" element={<Home />} />

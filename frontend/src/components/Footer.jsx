@@ -15,7 +15,7 @@ function Footer(){
             }}>
       <Box
         sx={{
-        width: "65%",
+        width: "80%",
         margin: "auto",
         display: "flex",
         justifyContent: "space-between",

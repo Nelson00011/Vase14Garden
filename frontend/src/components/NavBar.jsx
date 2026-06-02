@@ -2,7 +2,11 @@
 import { useState, useEffect } from "react";
 // import { useDispatch, useSelector } from "react-redux";
 import { Badge, Box, IconButton } from "@mui/material";
-import { PersonIcon, SearchOutlined, ParkIcon, LibraryBooksIcon, InfoIcon } from "@mui/icons-material";
+import PersonIcon from '@mui/icons-material/Person';
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import ParkIcon from '@mui/icons-material/Park';
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import InfoIcon from '@mui/icons-material/Info';
 import { useNavigate } from "react-router-dom";
 import LogoutIcon from '@mui/icons-material/Logout';
 import LoginIcon from '@mui/icons-material/Login';
@@ -53,15 +57,18 @@ function NavBar (){
         <Box className={classes.outterBox}>
             <Box className={classes.innerBox}>
                 <Box onClick={() =>navigate('/')} 
-                    sx={{ "&:hover": { cursor: "pointer" } }}
-                   color={shades.secondary[500]}>Rose Grounds</Box>
+                    sx={{ "&:hover": { cursor: "pointer" } 
+                    ,
+                    color: "#4caf50",
+                    fontWeight: 'bold'}}
+                   >Rose Grounds</Box>
                 <Box className={classes.icons}>
                     <IconButton className={classes.iconButton}
                     onClick={() =>navigate('/facts')} 
                     sx={{ "&:hover": { cursor: "pointer" } }}
                     color={shades.secondary[500]}
                      >
-                    <SearchOutlined />
+                    <SearchOutlinedIcon />
                     </IconButton>
                     {/* {login && loggedIn}
                     {!login && loggedOut} */}
