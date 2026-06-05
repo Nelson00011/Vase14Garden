@@ -110,6 +110,13 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - Social Logins [documentation](https://workos.com/docs/authkit/social-login)
 - **Rose Petal Tea** article for fun [here](https://www.inspirededibles.ca/2021/06/rose-petal-tea-warm-or-iced.html)
 - [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
+
+- [MASTRA](https://mastra.ai/docs/rag/overview) for RAG (Retrieval-Augmented Generation) that supports [OpenAI](https://openai.com/): Current OpenAI Embedding Models:
+    - `text-embedding-3-small` A highly efficient, low-cost model. It natively features 1536 dimensions but can be programmatically shortened (e.g., to 512 dimensions) without losing its underlying concept-representing properties
+    - `text-embedding-3-large` OpenAI's most capable embedding model. It natively supports up to 3072 dimensions, yielding higher accuracy for complex tasks, and can also be shortened to lower dimensions
+    
+    [DOCUMENTATION](https://developers.openai.com/api/docs/guides/embeddings)
+
 #### API
 ##### Plant Based API
 - Plant API Trefle API Service for [Node.js](https://github.com/aself101/trefle-api)
@@ -126,6 +133,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ##### Protein Folds Based API
 - AlphaFold Protein Structure Database [documentation](https://alphafold.ebi.ac.uk/), to compare for similar species and fun co-evolution fun facts!
+
 
 
 #### **style:** 
