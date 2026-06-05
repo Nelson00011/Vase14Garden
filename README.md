@@ -122,6 +122,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ##### Location Based API
 - Google Maps for React Applications [documentation](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js#2) and [Platform](https://mapsplatform.google.com/lp/maps-apis/)
+- Open Mape Tiles [styles](https://openmaptiles.org/styles/) and [schema](https://openmaptiles.org/schema/), including [maptiler](https://www.maptiler.com/server/) for deploying private, fast maps.
 
 ##### Protein Folds Based API
 - AlphaFold Protein Structure Database [documentation](https://alphafold.ebi.ac.uk/), to compare for similar species and fun co-evolution fun facts!
@@ -168,6 +169,19 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 | Integrations | Primarily native to GitHub, though supports IDE extensions. | Works across GitHub, GitLab, Bitbucket, and Azure DevOps.|
 | Analysis Depth | Line-by-line completion and conversational chat; reviews are essentially quick spellchecks. | Advanced analysis, structural and performance problem catching (e.g., N+1 database issues). |
 | Review Rules | Basic instructions via markdown. | Deep custom rules and path-scoped configurations (.coderabbit.yaml). |
+
+--------
+
+Retrieval-Augmented Generation (**RAG**) connects LLM to fresh, private or specific information:
+
+| **Stage** | **What it does** | **Typical Tool/Framework** |
+| :--- | --- | --- |
+| Document | Holds raw, unorganized text. | PDF, Markdown, HTML |
+| Chunking | Splits text into logical blocks. | LangChain Text Splitters, LlamaIndex |
+| Embedding | Translates text blocks to numbers. | OpenAI, Hugging Face Transformers |
+| Vector DB | Indexes and finds similar vectors. | Pinecone, Qdrant, Milvus, Chroma |
+
+**Vector DB** is required for User Question -> Embed Query - > Retrieve Chunks -> LLM Answer? 
 
 
 
