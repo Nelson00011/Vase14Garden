@@ -1,6 +1,6 @@
 # GITIGNORE for Vase14Garden backend
 
 # misc
-.env
+# .env
 .DS_Store
 .env.local
