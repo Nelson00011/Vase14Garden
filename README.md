@@ -116,6 +116,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - `text-embedding-3-large` OpenAI's most capable embedding model. It natively supports up to 3072 dimensions, yielding higher accuracy for complex tasks, and can also be shortened to lower dimensions
     
     [DOCUMENTATION](https://developers.openai.com/api/docs/guides/embeddings)
+    
 
 #### API
 ##### Plant Based API
