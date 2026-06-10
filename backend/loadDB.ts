@@ -20,15 +20,15 @@ const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
 const vaseData = [
     "https://en.wikipedia.org/wiki/Rose",
-    "TBD",
+    "https://en.wikipedia.org/wiki/Garden_roses",
     "https://nationaldaycalendar.com/lists/7-most-beautiful-rose-gardens-in-the-us",
-    "TBD",
-    "TBD",
-    "TBD",
-    "TBD",
-    "TBD",
-    "TBD",
-    "TBD"
+    "https://en.wikipedia.org/wiki/List_of_Rosa_species",
+    "https://en.wikipedia.org/wiki/Rosa_rugosa",
+    "https://en.wikipedia.org/wiki/Rosa_multiflora",
+    "https://en.wikipedia.org/wiki/Rosaceae",
+    "https://en.wikipedia.org/wiki/Rosales",
+    "https://en.wikipedia.org/wiki/Hybrid_tea_rose",
+    "https://en.wikipedia.org/wiki/Rosa_%27Soleil_d%27Or%27"
 ]
 
 const client = new DataAPIClient(ASTRA_DB_APPLICATION_TOKEN);

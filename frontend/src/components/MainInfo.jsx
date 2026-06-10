@@ -10,22 +10,38 @@ const MainInfo = () => {
 
     const breakPoint = useMediaQuery("(min-width:600px)");
   
+  //USE EFFECT HERE for API CALL First 6 in LIST ONLY! 
+      // async function getRoses() {
+      //       const items = await fetch(
+      //         "http://localhost:8000/api/roses",
+      //         { method: "GET" }
+      //       );
+
+      //       const itemsJSON = await items.json();
+      //       dispatch(setItems(itemsJSON.data));
+      //     }
+
+      // useEffect(() => {
+      //     getRoses();
+      //   }, []); 
+
   
-  
-    return (<Box width="80%" margin="80px auto">
-        <Typography variant="h3" textAlign="center">
+    return (<Box sx={{ width: '80%', margin: '80px auto' }}>
+        <Typography sx={{ variant: "h3", textAlign: 'center' }}>
           Main Info
         </Typography>
         
         <Box
-          margin="0 auto"
-          display="grid"
-          gridTemplateColumns="repeat(auto-fill, 300px)"
-          justifyContent="space-around"
-          rowGap="20px"
-          columnGap="1.33%"
+          sx={{
+            mx: 'auto',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, 300px)',
+            justifyContent: 'space-around',
+            rowGap: '20px',
+            columnGap: '1.33%'
+          }}
         > 
-        TESTING HERE 
+        TESTING HERE FOR API call
         <InfoCard />
 
            {/* {value === "all" && items.map((item) => (

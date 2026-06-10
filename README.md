@@ -116,11 +116,14 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     - `text-embedding-3-large` OpenAI's most capable embedding model. It natively supports up to 3072 dimensions, yielding higher accuracy for complex tasks, and can also be shortened to lower dimensions
     
     [DOCUMENTATION](https://developers.openai.com/api/docs/guides/embeddings)
+    - General Rules for CHUNKING [guide](https://www.kaggle.com/discussions/general/503436)
+
 
 
 #### API
 ##### Plant Based API
 - Plant API Trefle API Service for [Node.js](https://github.com/aself101/trefle-api)
+    - Security NOTE: API calls can be through backend / server or frontend / client directly to TREFLE API [DIRECTLY](https://docs.trefle.io/docs/advanced/client-side-apps) client-side applications less favored (provided an option)
 - Plant API [documentation](https://perenual.com/docs/api)
 - Plant Database API with taxomony and Classification, Characteristics, Plant Growth Requirements - [API Farmer](https://apifarmer.com/plant-database-api/)
 
