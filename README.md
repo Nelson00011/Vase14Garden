@@ -162,7 +162,8 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - console log testing with `ctr-alt-l` 
 - Always Stay Positive & Triple Check Permissions :)
 - Material UI `sx` to mimic periods, depending on text length / static / imported: 
-````py: 2, // 'py' applies padding to both top and bottom (Theme spacing unit, e.g., 2 = 16px)
+```
+py: 2, // 'py' applies padding to both top and bottom (Theme spacing unit, e.g., 2 = 16px)
 ```
 
 - Material UI `sx` Comparison Table (justification): 
@@ -207,34 +208,34 @@ Retrieval-Augmented Generation (**RAG**) connects LLM to fresh, private or speci
 
 
 
-# <!-- 
-# ### TODO stx: 
-# Future Structure (stx):
-# backend
-# frontend
-# images
-# screenShots [contains video link]
-# troubleShooting [contains issues resolved]
+<!-- 
+### TODO stx: 
+Future Structure (stx):
+backend
+frontend
+images
+screenShots [contains video link]
+troubleShooting [contains issues resolved]
 
-# NavBar - [RAG search (i), Info with Tea/Festivals/Fashion, Mapping to Gardens / TripAdvisor, TOOD: Nursery Growth Tips]
-# HOME page - [RAG search (i), Info with Tea/Festivals/Fashion, Mapping to Gardens / TripAdvisor]
-# RAG search (i) page - Rose Varieties General with LLM for Scraped for General Info with Tea/Festivals/Fashion - Static Page with links to new Webpages
-# Mapping to Gardens / TripAdvisor - Google Maps API request Call for establishing gardens near YOU! 
+NavBar - [RAG search (i), Info with Tea/Festivals/Fashion, Mapping to Gardens / TripAdvisor, TOOD: Nursery Growth Tips]
+HOME page - [RAG search (i), Info with Tea/Festivals/Fashion, Mapping to Gardens / TripAdvisor]
+RAG search (i) page - Rose Varieties General with LLM for Scraped for General Info with Tea/Festivals/Fashion - Static Page with links to new Webpages
+Mapping to Gardens / TripAdvisor - Google Maps API request Call for establishing gardens near YOU! 
 
-# FOOTER - [Mission Statement / Our Team, Terms & Conditions / Privacy Policy, Brief History / Info page, Rose Varities (wikipedia link), Advise for Growing Roses / Nurseries, Contact Info]
+FOOTER - [Mission Statement / Our Team, Terms & Conditions / Privacy Policy, Brief History / Info page, Rose Varities (wikipedia link), Advise for Growing Roses / Nurseries, Contact Info]
 
-# - Connect "Garden" to gardens pages around the world where you can explore further and have a full page -> direct to trip planner? 
+- Connect "Garden" to gardens pages around the world where you can explore further and have a full page -> direct to trip planner? 
 
-# 2. The Fresh Petal MethodPrep the teapot: Preheat your teapot by swirling a small amount of boiling water in it for 5 minutes, then discard the water.Steep: Place about 2 loosely packed cups of fresh rose petals into the teapot. Pour 3 cups of near-boiling water (around \(200^{\circ}\text{F}\) or \(93^{\circ}\text{C}\)) over the petals.Wait: Cover the teapot and let steep for 5 to 10 minutes. The water will absorb a delicate flavor and a faint pink/yellow hue.
-# ---
-# https://www.inspirededibles.ca/2021/06/rose-petal-tea-warm-or-iced.html
-# ---
-# 3. The Dried Petal/Bud MethodDrying: Spread your freshly picked petals or whole buds on a baking sheet or screen, and allow them to air-dry in a cool, well-ventilated area for 2 to 3 weeks until crisp.Steep: Use about 1 tablespoon of dried petals or 1 to 2 teaspoons of dried buds per cup of hot water. Steep covered for 7 to 10 minutes to allow the flavors to properly rehydrate and extract.
-# ---
-# https://www.learningherbs.com/blog/rosebud-tea#gsc.tab=0
-# ---
-# 4. The Simmer Method (Concentrated)For a deeper, more robust flavor, use this traditional decoction method:Place the rose petals or buds in a small saucepan and cover with cold water.Bring to a gentle simmer over medium-high heat.Let simmer for 5 to 15 minutes, or until the petals lose their color and the liquid darkens.Strain the liquid, sweeten with a bit of sugar or honey, and serve hot or chilled.
-# ---
-# https://the-tea-chest.blog/2020/06/20/how-to-make-rose-tea/
-# ---
-# -->
+2. The Fresh Petal MethodPrep the teapot: Preheat your teapot by swirling a small amount of boiling water in it for 5 minutes, then discard the water.Steep: Place about 2 loosely packed cups of fresh rose petals into the teapot. Pour 3 cups of near-boiling water (around \(200^{\circ}\text{F}\) or \(93^{\circ}\text{C}\)) over the petals.Wait: Cover the teapot and let steep for 5 to 10 minutes. The water will absorb a delicate flavor and a faint pink/yellow hue.
+---
+https://www.inspirededibles.ca/2021/06/rose-petal-tea-warm-or-iced.html
+---
+3. The Dried Petal/Bud MethodDrying: Spread your freshly picked petals or whole buds on a baking sheet or screen, and allow them to air-dry in a cool, well-ventilated area for 2 to 3 weeks until crisp.Steep: Use about 1 tablespoon of dried petals or 1 to 2 teaspoons of dried buds per cup of hot water. Steep covered for 7 to 10 minutes to allow the flavors to properly rehydrate and extract.
+---
+https://www.learningherbs.com/blog/rosebud-tea#gsc.tab=0
+---
+4. The Simmer Method (Concentrated)For a deeper, more robust flavor, use this traditional decoction method:Place the rose petals or buds in a small saucepan and cover with cold water.Bring to a gentle simmer over medium-high heat.Let simmer for 5 to 15 minutes, or until the petals lose their color and the liquid darkens.Strain the liquid, sweeten with a bit of sugar or honey, and serve hot or chilled.
+---
+https://the-tea-chest.blog/2020/06/20/how-to-make-rose-tea/
+---
+-->
