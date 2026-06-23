@@ -28,7 +28,7 @@ function Footer(){
         <Box width="clamp(20%, 30%, 40%)">
             <Typography 
             
-            variant="h4"
+            variant="h5"
             sx={{
                 fontWeight: 'bold',
                 mb: '30px',
@@ -46,7 +46,7 @@ function Footer(){
             <Box>
                 <Typography 
                  sx={{
-                        typography: 'h4',
+                        typography: 'h5',
                         fontWeight: 'bold',
                         mb: '30px',
                         color: shades.secondary[500]
@@ -62,7 +62,7 @@ function Footer(){
             <Box>
                 <Typography 
                   sx={{
-                        typography: 'h4',
+                        typography: 'h5',
                         fontWeight: 'bold',
                         mb: '30px',
                         color: shades.secondary[500]
@@ -78,7 +78,7 @@ function Footer(){
         <Box sx={{ width: 'clamp(20%, 25%, 30%)' }}>
         <Typography 
                 sx={{
-                        typography: 'h4',
+                        typography: 'h5',
                         fontWeight: 'bold',
                         mb: '30px',
                         color: shades.secondary[500]

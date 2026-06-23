@@ -4,7 +4,7 @@ const InfoCard = () => {
     
     return (
         <div>
-            InfoCard
+            InfoCard: Tea, Festivals, Fashion -> Link to News Articles? 
         </div>
     )
 }

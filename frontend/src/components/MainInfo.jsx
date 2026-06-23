@@ -47,7 +47,8 @@ const MainInfo = () => {
            {/* {value === "all" && items.map((item) => (
               <Item item={item} key={`${item.name}-${item.id}`} />
             ))} */}
-            ADD INFO CARDS HERE
+            HISTORICAL INFORMATION
+            TOP PARKS - PHOTO BASED
             
         </Box>
       </Box>
