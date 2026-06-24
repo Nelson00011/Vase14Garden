@@ -70,8 +70,8 @@ function Footer(){
                     HELP
                 </Typography>
                 <Typography mb="30px">Brief History</Typography>
-                <Typography mb="30px">Co-Evolution</Typography>
-                <Typography mb="30px">Rose Varieties</Typography>
+                <Typography mb="30px">Rose Gardens</Typography>
+                <Typography mb="30px">Information</Typography>
                 <Typography mb="30px">Growth Tips</Typography>
     
             </Box>

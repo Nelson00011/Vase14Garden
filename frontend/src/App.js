@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 //COMMENT: Pages
 import Home from './pages/Home';
 import Info from './pages/Info';
-import History from './pages/History';
-import Gardens from './pages/Garden';
+import GrowingPage from './pages/GrowingPage';
+import Gardens from './pages/GardenPage';
 import Facts from './pages/FactCheck';
 //COMMENT: Authentification;
 import ProfilePage from './pages/ProfilePage';
@@ -38,7 +38,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/info" element={<Info />} />
-          <Route path="/history" element={<History />} />
+          <Route path="/grow" element={<GrowingPage />} />
+          
           <Route path="/gardens" element={<Gardens />} />
           <Route path="/facts" element={<Facts />} />
 

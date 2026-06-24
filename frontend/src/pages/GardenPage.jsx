@@ -1,4 +1,4 @@
-//TODO Gardens Map / InfoCards
+//TODO Gardens Map / weather / InfoCards
 
 const GardenPage = () => {
     

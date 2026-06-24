@@ -8,6 +8,7 @@ import ParkIcon from '@mui/icons-material/Park';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import InfoIcon from '@mui/icons-material/Info';
 import { useNavigate } from "react-router-dom";
+import YardIcon from '@mui/icons-material/Yard';
 import LogoutIcon from '@mui/icons-material/Logout';
 import LoginIcon from '@mui/icons-material/Login';
 //style
@@ -81,6 +82,13 @@ function NavBar (){
                         <InfoIcon />
                     </IconButton>
                     
+                    <IconButton className={classes.iconButton}
+                    onClick={() =>navigate('/grow')} 
+                    sx={{ "&:hover": { cursor: "pointer" } }}
+                    color={shades.secondary[500]}
+                    >
+                        <YardIcon />
+                    </IconButton>
 
                     <IconButton className={classes.iconButton}
                     onClick={() =>navigate('/gardens')} 
