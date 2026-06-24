@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Box, Typography, useMediaQuery } from '@mui/material';
 //COMMNETS: components infocards
-import InfoCard from './InfoCards';
+import InfoCard from './InfoCard';
 
 
 

@@ -44,6 +44,8 @@
 > npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 > npm install --save google-icon
 > npm install --save react-router-dom
+> npm install lucide-react
+
 > npm install react-redux @reduxjs/toolkit
 > npm install dotenv react-responsive-carousel
 > npm install react-material-ui-carousel --save
@@ -123,6 +125,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
     
     [DOCUMENTATION](https://developers.openai.com/api/docs/guides/embeddings)
     - General Rules for CHUNKING [guide](https://www.kaggle.com/discussions/general/503436)
+
 
 
 

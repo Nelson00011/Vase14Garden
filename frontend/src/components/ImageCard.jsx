@@ -1,6 +1,6 @@
 //TODO: make info cards for the backend data 
 
-const ImageCards = () => {
+const ImageCard = () => {
     
     return (
         <div>
@@ -9,4 +9,4 @@ const ImageCards = () => {
     )
 }
 
-export default ImageCards;
+export default ImageCard;

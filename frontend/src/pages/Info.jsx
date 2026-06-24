@@ -1,8 +1,7 @@
-//COMMENTS: 
+//COMMENTS: Components
+import InfoCard from '../components/InfoCard';
+//COMMENT: material UI components that factor in... 
 import { Box, Typography } from '@mui/material';
-import InfoCard from '../components/InfoCards';
-// co-evolution page with the molecular APi call for similar species with the same proteins for fun.
-
 
 const InfoPage = () => {
     
