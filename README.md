@@ -49,6 +49,7 @@
 > npm install react-redux @reduxjs/toolkit
 > npm install dotenv react-responsive-carousel
 > npm install react-material-ui-carousel --save
+> npm install @react-google-maps/api
 
 ```
 - Test front-end once pages are generated (ctrl-c to exit):
@@ -137,7 +138,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - Plant Database API with taxomony and Classification, Characteristics, Plant Growth Requirements - [API Farmer](https://apifarmer.com/plant-database-api/)
 
 ##### Weather based API
- - Weather Data API [open source](https://open-meteo.com/en/docs), variables included in main page. Government data listed as references as well. 
+ - Weather Data API [open source](https://open-meteo.com/en/docs), variables included in main page. Government data listed as references as well. DAILY WEATHER VARIABLES: Max, Min, Sunrise, Sunset, 
  - Google DeepMind API [AI weather](https://deepmind.google/science/weathernext/) forestcast. 
 
 ##### Location Based API
@@ -208,6 +209,28 @@ Retrieval-Augmented Generation (**RAG**) connects LLM to fresh, private or speci
 | Vector DB | Indexes and finds similar vectors. | Pinecone, Qdrant, Milvus, Chroma |
 
 **Vector DB** is required for User Question -> Embed Query - > Retrieve Chunks -> LLM Answer? 
+
+
+
+┌─────────────┐
+│ React Front │
+│ Search Bar  │
+└──────┬──────┘
+       │
+       │ POST /api/maps/search
+       ▼
+┌─────────────┐
+│ Express API │
+│  Backend    │
+└──────┬──────┘
+       │
+       │ HTTPS Request
+       ▼
+┌─────────────┐
+│ Google Maps │
+│ Geocoding   │
+│ Places API  │
+└─────────────┘
 
 
 
