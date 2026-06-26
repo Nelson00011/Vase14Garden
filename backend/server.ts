@@ -30,6 +30,24 @@ app.get('/api/weather', async (req, res) => {
   res.json(data);
 });
 
+// COMMENT: Maps
+app.post("/api/maps/place", async (req, res) => {
+  const { placeId } = req.body;
+
+  const response = await axios.get(
+    "https://maps.googleapis.com/maps/api/place/details/json",
+    {
+      params: {
+        place_id: placeId,
+        fields: "name,formatted_address,geometry",
+        key: process.env.GOOGLE_MAPS_API_KEY,
+      },
+    }
+  );
+
+  res.json(response.data.result);
+});
+
 // Start the server and listen on the defined port
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
