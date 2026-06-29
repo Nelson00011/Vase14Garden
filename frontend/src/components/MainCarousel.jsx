@@ -1,4 +1,6 @@
 import { Box, Typography, IconButton, useMediaQuery } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+
 //COMMENTS: Carousel Design Import Below
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
@@ -19,6 +21,8 @@ export const heroTextureImports = importAll(
 
 //COMMENTS: Components below:
 const MainCarousel = () => {
+
+  const navigate = useNavigate(); // <-- Add this line
 
     return (
       <Carousel
@@ -88,9 +92,14 @@ const MainCarousel = () => {
               <Typography variant="h1">Rose Grounds</Typography>
               
               <Typography
-                fontWeight="bold"
-                color={shades.secondary[300]}
-                sx={{ textDecoration: "underline" }}
+                
+                onClick={() =>navigate('/gardens')} 
+                sx={{ 
+                  "&:hover": { cursor: "pointer" }, 
+                  textDecoration: "underline",
+                  fontWeight: "bold",
+                  color: shades.secondary[300]
+                }}
               >
                 Discover Rose Gardens
               </Typography>

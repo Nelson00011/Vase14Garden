@@ -12,28 +12,42 @@ import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
 import AirRoundedIcon from "@mui/icons-material/AirRounded";
 import OpacityRoundedIcon from "@mui/icons-material/OpacityRounded";
 import WbTwilightRoundedIcon from "@mui/icons-material/WbTwilightRounded";
-import { useWeather, getWeatherInfo } from "../hooks/useWeather";
+
+import { useTheme } from '@mui/material/styles';
+import { shades } from "./../theme";
+
 
 const Forecast = () => {
-  const { data, isLoading, error } = useWeather();
-  const weather = getWeatherInfo(data);
+//TODO ensure the UseEffect Data Includes the correct packaging for the Grid in the Weather Tile
+    const stats = [
+    {
+      icon: <AirRoundedIcon fontSize="small" />,
+      label: "Wind",
+      value: "12 mph",
+    },
+    {
+      icon: <OpacityRoundedIcon fontSize="small" />,
+      label: "Humidity",
+      value: "73%",
+    },
+    {
+      icon: <WbTwilightRoundedIcon fontSize="small" />,
+      label: "Sunrise",
+      value: "6:36 AM",
+    },
+    {
+      icon: <WbTwilightRoundedIcon fontSize="small" />,
+      label: "Sunset",
+      value: "7:43 PM",
+    },
+  ];
 
-  if (isLoading) {
-    return <div style={{ color: '#fff', padding: 32 }}>Loading weather...</div>;
-  }
+  const temp = 59
+  const tempLow = 48
+  const tempHigh = 62
 
-  if (error) {
-    return <div style={{ color: '#fff', padding: 32 }}>Error loading weather.</div>;
-  }
-
-  const stats = weather.stats;
-  const temp = weather.temp;
-  const tempLow = weather.tempLow;
-  const tempHigh = weather.tempHigh;
-  const condition = weather.condition;
-  const summary = weather.summary;
-
-  return (
+    
+    return (
          <Card
       sx={{
         maxWidth: 1400,

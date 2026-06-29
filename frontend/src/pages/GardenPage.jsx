@@ -23,7 +23,7 @@ const GardenPage = () => {
             <Forecast/>
 
             <Typography variant="h4" textAlign="center">
-            Teas, Fashion, Festivals
+            Additional Rose Teas, Gardens, Festivals
             </Typography>
             <Box 
                 sx={{
