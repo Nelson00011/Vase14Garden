@@ -63,7 +63,16 @@ const Mapping = () => {
                 padding: "40px 0",
             }} >
         
-            GOOGLE MAP HOLDER
+             <GoogleMap
+                zoom={14}
+                center={center}
+                mapContainerStyle={{
+                  width: "100%",
+                  height: "600px",
+                }}
+              >
+              <Marker position={center} />
+            </GoogleMap>
         
         </Box>
     )
