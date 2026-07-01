@@ -3,16 +3,17 @@
 `main image`
 
 ## Description:
-**Garden** is an Ecology React.js app that allows users to look up their favorite roses species: garden locations, varieties, teas. The option to subscribe to a Newletter is provided on the front page for interested patrons.
+**Garden** is an ecology-focused React.js application designed for rose enthusiasts to explore their favorite species, including details on varieties, tea types, and garden locations. Users can delve into the historical significance of roses across different eras of fashion and conflict, or find ideal spots for a garden picnic. The app integrates Retrieval-Augmented Generation (RAG) to allow users to search for fun facts and analyze articles on various species. Additionally, it offers practical exploration tools via Google Maps to locate local nurseries, rose gardens, tea shops, and even vendors selling rose-flavored ice cream:
 
-- Client side (frontend) utilizes React.js & react-router-dom in combination with Material MUI create themes to provide cohesive structure.
-- Server side (backend) uses Node.js / pgvector in combination with PostGreSQL to provide database structure on the frontend when interfacing between client and server side.
+- Client side (frontend) utilizes React.js & react-router-dom in combination with Material MUI create themes to provide cohesive structure, carousel on the first bag, Navigation Bar, Footer component.
+- Server side (backend) uses Node.js / express in combination with PostGreSQL to provide database structure on the frontend when interfacing between client and server side.
 - Material UI in combination with traditional CSS is used for a cohesive design aesthetic.
 
 ## Technology Stack
-- **Frontend/Client:** React.js, HTML5, CSS, Material UI, 
-- **API:** Api calls or external sources used
-- **Backend/Server:** node.js/express or python alternatives, include databases
+- **Frontend/Client:** React.js, HTML5, CSS, Material UI, …
+- **API:** Google Maps, LangChain, DataStrax, OpenAI, Weather API, Plant API, …
+- **Backend/Server:** Node.js / Express, AstraDB, …
+
 
 <h2 align="center">Video:</h2>
 
@@ -143,7 +144,7 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ##### Location Based API
 - Google Maps for React Applications [documentation](https://developers.google.com/codelabs/maps-platform/maps-platform-101-react-js#2) and [Platform](https://mapsplatform.google.com/lp/maps-apis/)
-- Open Mape Tiles [styles](https://openmaptiles.org/styles/) and [schema](https://openmaptiles.org/schema/), including [maptiler](https://www.maptiler.com/server/) for deploying private, fast maps.
+- Open Map Tiles [styles](https://openmaptiles.org/styles/) and [schema](https://openmaptiles.org/schema/), including [maptiler](https://www.maptiler.com/server/) for deploying private, fast maps.
 
 ##### Protein Folds Based API
 - AlphaFold Protein Structure Database [documentation](https://alphafold.ebi.ac.uk/), to compare for similar species and fun co-evolution fun facts!
@@ -263,5 +264,8 @@ https://www.learningherbs.com/blog/rosebud-tea#gsc.tab=0
 4. The Simmer Method (Concentrated)For a deeper, more robust flavor, use this traditional decoction method:Place the rose petals or buds in a small saucepan and cover with cold water.Bring to a gentle simmer over medium-high heat.Let simmer for 5 to 15 minutes, or until the petals lose their color and the liquid darkens.Strain the liquid, sweeten with a bit of sugar or honey, and serve hot or chilled.
 ---
 https://the-tea-chest.blog/2020/06/20/how-to-make-rose-tea/
+
+https://docs.google.com/document/d/1NRKHf41yMTQw2pFYSgRgX5tUS5da-YqieoZjhYR715U/edit?tab=t.qszpnpoow2qa
+
 ---
 -->
